@@ -1,0 +1,71 @@
+
+
+.container {
+    width:100%;
+    height:100%
+
+     /* This makes it fill the entire screen's height */
+  }
+  
+  .card {
+    background: lightgrey;
+    position: absolute;
+    left: 30%;
+    top:20%;
+    padding: 20px;
+    color: black;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.1); 
+    width: 500px;
+  }
+  
+  .card form input {
+    width: 90%;
+    margin-bottom: 10px;
+    padding: 20px;
+    padding-top: 30px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+
+  .card-header {
+    font-size: x-large;
+    color:black;
+    display: block;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.1); 
+    padding: 5px;
+    background:rgb(11 150 139 / 75%);
+  }
+
+  .card-form {
+    padding:30px;
+  }
+  
+  .card form button {
+    padding: 10px 20px;
+    background:rgb(11 150 139 / 75%);
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+  }
+
+  .error{
+    color: red;
+    display: flex;
+    justify-content: center;
+  }
+
+  .success{
+    color: green;
+    display: flex;
+    justify-content: center;
+  }
+
+  #submitButton{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+  }
+  

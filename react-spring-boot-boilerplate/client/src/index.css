@@ -1,0 +1,29 @@
+.headerBar {
+    background: rgb(11 150 139 / 75%);
+    width: 100%;
+    height: 50px;
+    display: inline-flex;
+    align-content: center;
+    flex-wrap: wrap;
+   
+}
+
+.gap {
+    width: 50px;
+}
+
+.link{
+    padding: 40px;
+}
+.linkSearchGrid {
+    background: url('https://img.icons8.com/ios-glyphs/30/000000/search--v1.png') no-repeat left center;
+    
+}
+
+.linkHomeGrid {
+    background: url('https://img.icons8.com/ios-glyphs/30/000000/home--v1.png')no-repeat left center ;
+}
+.linkCreateGrid {
+    background: url('https://img.icons8.com/ios-glyphs/50/000000/wrench.png') no-repeat left center;
+    background-size: 30px
+}
